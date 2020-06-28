@@ -1,0 +1,13 @@
+.ChatSection {
+  position: fixed;
+  top: 10vh;
+  left: 15vw;
+  width: 85vw;
+  height: 85vh;
+  overflow: auto;
+}
+
+.ChatSection .chats {
+  display: flex;
+  flex-direction: column;
+}
