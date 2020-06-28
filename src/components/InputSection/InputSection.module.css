@@ -1,0 +1,30 @@
+.InputSection {
+  position: fixed;
+  bottom: 0;
+  left: 15vw;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+}
+
+.InputSection input {
+  border: none;
+  background-color: #37474f;
+  color: #cfd8dc;
+  border-left: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  height: 5vh;
+  width: 90%;
+}
+
+.InputSection button {
+  height: 5vh;
+  width: 10%;
+  background-color: #f44336;
+  color: #cfd8dc;
+  border-radius: 0;
+  margin: 0;
+}
