@@ -1,0 +1,74 @@
+.Modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+}
+
+.Modal form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #eceff1;
+}
+
+.Modal form input,
+button {
+  padding: 8px;
+  font-size: large;
+  text-align: center;
+  margin: 2px;
+  border-radius: 2px;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.Modal form input:focus {
+  border-color: #263238;
+}
+
+.Modal form button {
+  background-color: #263238;
+  color: #eceff1;
+  cursor: pointer;
+}
+
+.Modal form button:hover {
+  background-color: #37474f;
+}
+
+.Modal form button:disabled {
+  background-color: #90a4ae;
+  cursor: initial;
+}
+
+.Modal form p {
+  margin: 12px 0 0 0;
+}
+
+.Modal form p b {
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.Modal form p b:hover {
+  color: #f44336;
+}
+
+.Modal form .error {
+  background-color: #ffebee;
+  border-color: #f44336;
+}
+
+.Modal form .error::placeholder {
+  color: #e57373;
+}
+
+.Modal form .errorText {
+  color: #ef5350;
+  font-size: small;
+  margin-left: 2px;
+}
