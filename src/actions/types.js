@@ -1,0 +1,10 @@
+export const USER_SIGN_UP = 'USER_SIGN_UP';
+export const USER_LOGIN = 'USER_LOGIN';
+export const USER_VERIFY = 'USER_VERIFY';
+export const USER_LOGOUT = 'USER_LOGOUT';
+export const MODAL_OPEN = 'MODAL_OPEN';
+export const MODAL_CLOSE = 'MODAL_CLOSE';
+export const MESSAGE_SEND = 'MESSAGE_SEND';
+export const SOCKET_CONNECT = 'SOCKET_CONNECT';
+export const FETCH_MESSAGE = 'FETCH_MESSAGE';
+export const FETCH_ALL_MESSAGES = 'FETCH_ALL_MESSAGES';
