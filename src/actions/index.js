@@ -47,7 +47,7 @@ export const closeModal = () => {
 };
 
 export const connectSocket = () => dispatch => {
-  const socket = io('http://localhost:4000');
+  const socket = io('https://poisonous-potato-server.herokuapp.com');
   socket.on('message', msg => {
     dispatch({ type: FETCH_MESSAGE, payload: msg });
   });
