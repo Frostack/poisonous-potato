@@ -11,6 +11,22 @@
 
 .Header h1 {
   margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header h1 .green {
+  color: #64dd17;
+}
+
+.Header h1 .yellow {
+  color: #ffd600;
+}
+
+.Header h1 img {
+  width: 50px;
 }
 
 .Header h2 {
