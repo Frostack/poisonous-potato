@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:4000/',
+  baseURL: 'https://poisonous-potato-server.herokuapp.com',
 });
 
 instance.interceptors.request.use(
