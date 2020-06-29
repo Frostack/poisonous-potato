@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import styles from './Header.module.css';
 import { openModal, logoutUser } from '../../actions/index';
+import logo from '../../assets/logo.png';
 
 function Header({ user, openModal, logoutUser }) {
   const onLoginClick = () => {
@@ -39,7 +40,11 @@ function Header({ user, openModal, logoutUser }) {
 
   return (
     <div className={styles.Header}>
-      <h1>Tupik</h1>
+      <h1>
+        <span className={styles.green}>Poisonous</span>
+        <img src={logo} alt="logo" />
+        <span className={styles.yellow}>Potato</span>
+      </h1>
       <div className={styles.auth}>{renderAuth()}</div>
     </div>
   );
